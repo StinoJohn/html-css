@@ -1,0 +1,128 @@
+body    { 
+         margin:2%;
+         padding:2%;
+        }
+h1      {
+        text-transform:uppercase;
+        text-align:center;
+        color:#FFFFFF;
+        } 
+header  {
+        background-size:100%;
+        background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+        background-position:top;
+        padding:3%;
+
+        }
+
+nav a   {
+        -webkit-border-radius: 3;
+        -moz-border-radius: 3;
+        -o-border-radius: 3;
+	border-radius: 3px;
+        text-align:center;
+        font-size:large;
+        text-decoration:none;
+        display:inline;
+        background:rgba(255,255,255,0.25);
+        color:#000000;
+        margin:5%;
+        padding-left:5%;
+        padding-right:5%;
+        padding-top:1%;
+        padding-bottom:1%;
+        transition:background .5s ease,border-radius .5s ease;        
+         }
+
+.active 
+        {
+        background:#ffffff;
+        }
+nav a:hover
+        {
+        -webkit-border-radius: 5;
+        -moz-border-radius: 5;
+        -o-border-radius: 5;        
+        border-radius: 5px;
+        background:rgba(255,255,255,0.5);   
+        }
+.left   {
+        width:22%;
+        padding:2%;
+        height:750px;
+        background:#808000;
+        display:inline-block;
+        float:left;
+        }
+.left img 
+        {
+        margin-top:2%;
+        margin-bottom:3%;
+        border:2px solid black;     
+        text align:center;
+        width:100%;
+        display:block;
+        float:left;
+        
+        
+        }
+h2      {
+        color:#000000;
+        }
+.right {
+
+        margin-left:.5%;
+        width:70%;
+        float:left;
+        display:inline-block;
+        background:#ffffff;
+        }
+
+
+table
+{display:block;
+ margin-left:10%;
+ font-style:italic;
+ font-family:"comic sans ms";
+ width:70%;
+}
+th
+{background:rgba(107,142,35,0.6);
+ text-style:bold;
+ color:#ffffff;
+ border:1px solid #ffffff;
+ border-bottom:2px solid rgb(107,142,35);
+ padding:2%;
+}
+
+td
+{background:rgba(144,238,144,0.6);
+ border:1px solid #ffffff;
+ padding:2%;
+
+}
+
+tr
+{text-align:center;
+}
+
+tr:hover td
+{background:rgb(144,238,144);
+}
+
+tr:hover th
+{background:rgb(107,142,35);
+}
+
+td:first-child
+{text-align:left;
+}
+
+th:first-child
+{border-radius:5px 0 0 0;
+ text-align:left;
+}
+
+th:last-child
+{border-radius:0 5px 0 0;
+}
